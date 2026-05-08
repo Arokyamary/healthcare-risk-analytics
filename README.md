@@ -10,19 +10,19 @@ A full-stack healthcare analytics platform that predicts 30-day patient readmiss
 - ## 📸 Screenshots
 
 ### Login Page
-![Login Page](screenshots/01_login_page)
+![Login Page](screenshots/01_login_page.png)
 
 ### Patient List (5,000 Patients)
-![Patient List](screenshots/02_patient_list)
+![Patient List](screenshots/02_patient_list.png)
 
 ### Risk Prediction
-![Risk Prediction](screenshots/03_risk_prediction)
+![Risk Prediction](screenshots/03_risk_prediction.png)
 
 ### API Docs (Swagger UI)
-![API Docs](screenshots/04_api_docs)
+![API Docs](screenshots/04_api_docs.png)
 
 ### Database Tables (pgAdmin)
-![Database](screenshots/05_pgadmin_tables)
+![Database](screenshots/05_pgadmin_tables.png)
 
 
 ## 📊 Project Overview
