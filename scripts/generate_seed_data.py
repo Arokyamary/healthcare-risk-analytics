@@ -1,16 +1,23 @@
 import pandas as pd
 import numpy as np
 from faker import Faker
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 import uuid, random
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 fake = Faker('en_IN')
 np.random.seed(42)
 random.seed(42)
 
-DB_URL = "postgresql://postgres:postgres@127.0.0.1:5432/healthcare_db"
+DB_URL = "postgresql://postgres:uykweXXcynlmeYaXItiNbmbGcWxDlLMg@turntable.proxy.rlwy.net:19990/railway"
 engine = create_engine(DB_URL)
+
+# Clear existing data
+print("Clearing existing data...")
+with engine.connect() as conn:
+    conn.execute(text("TRUNCATE TABLE audit_log, risk_scores, vitals, lab_results, medications, diagnoses, encounters, patients RESTART IDENTITY CASCADE"))
+    conn.commit()
+print("Cleared!")
 
 N_PATIENTS = 5000
 print(f"Generating {N_PATIENTS} synthetic patients...")

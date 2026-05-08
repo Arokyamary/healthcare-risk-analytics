@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import uuid, random
 
-engine = create_engine('postgresql://postgres:postgres@127.0.0.1:5432/healthcare_db')
+engine = create_engine('postgresql://postgres:uykweXXcynlmeYaXItiNbmbGcWxDlLMg@turntable.proxy.rlwy.net:19990/railway')
 patients_df = pd.read_sql('SELECT id FROM patients', engine)
 
 ICD_CODES = ['E11.9','I10','J44.1','N18.3','Z79.899','E78.5','I25.10']
