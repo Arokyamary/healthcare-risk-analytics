@@ -78,5 +78,7 @@ TypeScript dashboard deployed on Vercel + Render.com; predicts 30-day
 readmission risk with 82%+ AUC.
 
 Live API: https://healthcare-api-sv6r.onrender.com
+
 Live Dashboard: https://healthcare-dashboard-chi-orcin.vercel.app
+
 Code: https://github.com/Arokyamary/healthcare-risk-analytics
