@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "your-secret-key-change-in-production-minimum-32-chars"
     ENVIRONMENT: str = "development"
     ACCESS_TOKEN_EXPIRE_HOURS: int = 8
-    CORS_ORIGINS: list = ["http://localhost:3000"]
+    CORS_ORIGINS: list = ["http://localhost:3000", "https://healthcare-dashboard-chi-orcin.vercel.app"]
     GROQ_API_KEY: str = ""
 
     class Config:
