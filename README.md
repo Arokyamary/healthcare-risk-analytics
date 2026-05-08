@@ -7,6 +7,24 @@ A full-stack healthcare analytics platform that predicts 30-day patient readmiss
 - **API**: https://healthcare-api-sv6r.onrender.com
 - **API Docs**: https://healthcare-api-sv6r.onrender.com/api/docs
 
+- ## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/01_login_page.png)
+
+### Patient List (5,000 Patients)
+![Patient List](screenshots/02_patient_list.png)
+
+### Risk Prediction
+![Risk Prediction](screenshots/03_risk_prediction.png)
+
+### API Docs (Swagger UI)
+![API Docs](screenshots/04_api_docs.png)
+
+### Database Tables (pgAdmin)
+![Database](screenshots/05_pgadmin_tables.png)
+
+
 ## 📊 Project Overview
 - 5,000 synthetic patients with clinical data
 - XGBoost + Random Forest stacking model (AUC 0.82+)
